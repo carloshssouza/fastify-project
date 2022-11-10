@@ -1,0 +1,27 @@
+{
+  "name": "fastify-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/carloshssouza/fastify-project.git",
+  "author": "Carlos Silva <carlos.silva@tech4h.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.ts"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.12",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.9.2",
+    "mongoose": "^6.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.8",
+    "@typescript-eslint/eslint-plugin": "^5.42.0",
+    "@typescript-eslint/parser": "^5.42.0",
+    "eslint": "^8.26.0",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  }
+}
